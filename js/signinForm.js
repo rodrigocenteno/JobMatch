@@ -18,7 +18,7 @@ signInForm.addEventListener("submit", async (e) => {
     //modal.hide();
 
     // reset the form
-    signInForm.reset();
+    //signInForm.reset();
 
     // show welcome message
     showMessage("Welcome" + userCredentials.user.email);

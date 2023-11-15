@@ -105,14 +105,27 @@ h6 {
 	font: 700 1rem/1.5rem "Raleway", sans-serif;
 }
 
+.fuente-detalle{
+	font-size: 20px;
+}
+
 a {
 	color: #626262;
 	text-decoration: underline;
 }
 
+.tarjetas-servicios{
+	text-decoration: none;
+	background-color: #f5fafc;
+}
+
+.fondo-servicios{
+	background-color: #f7f7f7;
+}
+
 a:hover {
 	color: #626262;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 a.turquoise {
@@ -141,6 +154,14 @@ a.white {
   	border-radius: 75px;
 	color: #4287f5;
   	background-color: rgb(255, 255, 255);
+  	border: 5px solid #ffffff;
+	text-decoration:none;
+}
+
+.texto-pagina-nav{
+  	margin: 20px 10px 10px 10px;
+  	border-radius: 75px;
+	color: #4287f5;
   	border: 5px solid #ffffff;
 	text-decoration:none;
 }
@@ -676,6 +697,7 @@ input[type='checkbox'] {
 	transition: all 0.2s;
 	
 }
+
 
 .navbar-custom .navbar-brand.logo-image img {
     width: 7.4375rem;
@@ -1597,6 +1619,12 @@ a:hover.back-to-top {
 .ex-header-login {
 	padding-top: 11rem;
 	padding-bottom: 9rem;
+	text-align: center;
+}
+
+.ex-header-profile {
+	padding-top: 8rem;
+	padding-bottom: 3rem;
 	text-align: center;
 }
 
